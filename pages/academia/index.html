@@ -1,0 +1,39 @@
+---
+layout: splash
+---
+
+<!DOCTYPE html>
+
+<body>
+		<body><div class="wrapper">
+        
+		<div class="text-container" style="padding-top: 100px;">
+
+				<h1> <strong><a href="https://onlinelibrary.wiley.com/doi/full/10.1002/jaa2.69">Policy Uncertainties and Agricultural Trade</a></strong></h1>
+				<p> This work (<a href="https://onlinelibrary.wiley.com/doi/full/10.1002/jaa2.69">published</a> in collaboration with my advisor <a href="https://agecon.uga.edu/people/faculty/gopinath-munisamy.html"> Dr. Gopinath Munisamy</a>, and <a href="https://www.bse.vt.edu/people/faculty/feras-batarseh.html"> Dr. Feras A Batarseh</a> from Virginia Tech) discusses the impacts of policy uncertainty on agricultural trade- specifically the impacts of economic and trade policy uncertainty in driving anomalies (outliers) in trade. Using a simple <a href="https://en.wikipedia.org/wiki/Naive_Bayes_classifier"> Naive Bayes classifier</a>,  outliers in monthly agricultural trade data are identified and subsequently classified as having arised from stuructural (i.e., production-related) sources or policy uncertainty (i.e, concerns about the future of policy). The latter group is further classified as economic-policy (EPU) related outliers  and trade-policy (TPU) related outliers. Then, the effects of policy uncertainty on agriculture are analyzed by using two primary metrics: intensity (i.e., the size of the deviation from the trend) and duration (i.e., the persistence of these effects across mutliple subsequent periods). Results indicate that the effects of EPU and TPU are distinct from production related changes. Compared to changes to the supply-side, EPU is associated with a significant decrease in trade which supports the existing literature on the contractionary effects of uncertainty. TPU, on the other hand, is associated with an increase in trade suggesting anticipatory stockpiling. <p>
+				<p>Trade data are obtained from a propreitary subscription to IHS-Markit, policy uncertainty measures are obtained from the <a href="http://www.policyuncertainty.com/"> policy uncertainty website </a> maintained by Scott R. Baker, Nicholas Bloom, and Steven J. Davis, and production data are obtained from the <a href="https://apps.fas.usda.gov/psdonline/app/index.html#/app/downloads"> Production, Supply, and Distribution database </a> maintained by USDA- Foreign Ag. Service. All of the coding was done in R.   </p>
+		</div><!-- /.container -->
+		
+		<div class="text-container" style="padding-top: 50px;">
+
+				<h1> <strong>Networks and International Trade</strong></h1>
+				<div class="figure> <img src= "../../assets/images/corn2022.png" alt = "corn trade network in 2022"> <p> Sample network (corn, 2022) </p></div>
+				<p> This work examines the structure and evolution of international food supply chains using a network-based approach. In doing so, countries are represented by the nodes of the network while their trade relatiosnhips are represented as the edges connecting the nodes. Using this directed, weighted network-representation of the food supply chain, changes in the network are identified across three areas:<p>
+					<ol>
+						<li> <a href="https://en.wikipedia.org/wiki/Centrality"> Centrality Measures</a></li>
+						<ul>
+							<li> <strong>Degree Centrality:</strong> number of trading partners for a country </li>
+							<li> <strong> Betweenness Centrality:</strong> tendency of a country to act as a bridge (facilitator) of trade between other countries, and </li>
+							<li> <strong>Laplacian Centrality:</strong> influence of a country on the network, determined by the change in Laplacian energy when the country is removed.  </li>
+						</ul>
+						<li><a href="https://en.wikipedia.org/wiki/Community_structure">Community Detection</a></li>
+							<p>The identification of densely connected clusters within the network based on <a href="https://en.wikipedia.org/wiki/Modularity">modularity</a> maximization. The basic principle is that countries within a community should be densely interconnected while connections across communities should be sparse. </p>
+						<li><a href="https://en.wikipedia.org/wiki/Clustering_coefficient"> Clustering Coefficient</a></li>
+							<p>A measure of the interconnectedness of the network. Determined by identifying the total number of "triangles" observed in the network compared to the total possible number of triangles.</p>
+					</ol>			
+				<p>Trade data on three product groups- meats, grains, and edible oils- as well as soybean are obtained from a propreitary subscription to IHS-Markit and from the UN-Comtrade database. This project makes extensive use of various graphing libraries such as networkx, igraph, gravis, and so on available for Python. </p>
+		</div><!-- /.container -->
+
+
+			</div>
+	</body>
