@@ -1,0 +1,1 @@
+This is the repository for my personal website, made using the [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) theme in [Jekyll](https://jekyllrb.com/). All thoughts/suggestions/critiques are welcome!
