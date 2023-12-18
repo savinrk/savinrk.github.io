@@ -235,7 +235,9 @@ body {
 
 .page__hero-image {
   width: 100%;
-  height: auto;
+  height: 30%;
+  padding-left: 200px;
+  padding-right: 200px;
   -ms-interpolation-mode: bicubic;
 }
 
@@ -304,12 +306,22 @@ body {
   font-size: $type-size-6;
 
   p {
-    margin: 0;
+    margin: 2px;
   }
 
   a {
-    color: inherit;
-  }
+    color: #00c;
+    &:visited {
+      color: #0cc;
+ 	 }
+    &:hover{
+      color: #ccc;
+ 	 }
+    &:active{
+      color: #cc0;
+ 	 }
+
+ }
 }
 
 .page__meta-title {

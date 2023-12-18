@@ -3,10 +3,10 @@ main:
   - title: "Academia"
     url: "/_pages/academia/index.html" 
   - title: "Current Projects"
-    url: 
+    url: "/_pages/currentProjects/index.html" 
   - title: "Personal Interests"
-    url: 
-  - title: "About" 
+    url: "/_pages/interests/index.html"
+  - title: "About Me" 
     url: 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/

@@ -1,0 +1,41 @@
+---
+layout: splash
+title: Current Projects
+header:
+  <!-- image: /assets/images/mathCurrent.jpg -->
+---
+
+<!DOCTYPE html>
+
+<h1 style="padding-top: 50px"> CURRENT PROJECTS </h1>
+<p > This page describes some of my ongoing work. My doctoral dissertation is focused on applying Machine Learning techniques to international trade and related areas. The first chapter uses some anomaly detection techniques using both parametric and non-parametric methods, the second one uses a network-based framework for modeling international trade, and the third one uses reinforcement learning to identify determinants of growth and the role of trade in driving economic development. </p>
+
+<body>
+    <body><div class="wrapper">
+        
+    <div class="text-container" style="padding-top: 5px;">
+
+        <h1> <strong>Networks and International Trade</strong></h1>
+        
+        <p> This work examines the structure and evolution of international food supply chains using a network-based approach. In doing so, countries are represented by the nodes of the network while their trade relationships are represented as the edges connecting the nodes. Using this directed, weighted network-representation of the food supply chain, changes in the network are identified across three areas:<p>
+              <div class="figure"> <img src= "/assets/images/corn2022.png" 
+                                        alt = "corn trade network in 2022"
+                                        align="middle" 
+                                        style='width:90%; 
+                                               object-fit:contain'/> <p> Sample Network (corn, 2022) </p>
+              </div>
+          <ol>
+            <li> <a href="https://en.wikipedia.org/wiki/Centrality"> Centrality Measures</a></li>
+            <ul>
+              <li> <strong>Degree Centrality:</strong> number of trading partners for a country </li>
+              <li> <strong> Betweenness Centrality:</strong> tendency of a country to act as a bridge (facilitator) of trade between other countries, and </li>
+              <li> <strong>Laplacian Centrality:</strong> influence of a country on the network, determined by the change in Laplacian energy when the country is removed.  </li>
+            </ul>
+            <li><a href="https://en.wikipedia.org/wiki/Community_structure">Community Detection</a></li>
+              <p>The identification of densely connected clusters within the network based on <a href="https://en.wikipedia.org/wiki/Modularity">modularity</a> maximization. The basic principle is that countries within a community should be densely interconnected while connections across communities should be sparse. </p>
+            <li><a href="https://en.wikipedia.org/wiki/Clustering_coefficient"> Clustering Coefficient</a></li>
+              <p>A measure of the interconnectedness of the network. Determined by identifying the total number of "triangles" observed in the network compared to the total possible number of triangles.</p>
+          </ol>     
+        <p>Trade data on three product groups- meats, grains, and edible oils- as well as soybean are obtained from a propreitary subscription to IHS-Markit and from the UN-Comtrade database. This project makes extensive use of various graphing libraries (such as networkx, igraph, gravis, and so on) available for Python. </p>
+    </div><!-- /.container -->
+  </div>
