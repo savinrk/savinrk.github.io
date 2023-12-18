@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "Academia"
-    url: "/pages/academia/index.html" 
+    url: "/_pages/academia/index.html" 
   - title: "Current Projects"
     url: 
   - title: "Personal Interests"
