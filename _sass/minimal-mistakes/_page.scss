@@ -20,6 +20,7 @@
 }
 
 body {
+  @include linx(blue, green, red, pink);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

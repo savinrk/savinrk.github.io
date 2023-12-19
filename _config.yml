@@ -99,15 +99,15 @@ social:
 
 # Analytics
 analytics:
-  provider               : "google-universal" # false (default), "google", "google-universal", "google-gtag", "custom"
+  provider               : false # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : "G-WQH9FDPCHJ" 
-    anonymize_ip         : true # true, false (default)
+    tracking_id          : # "G-WQH9FDPCHJ" 
+    anonymize_ip         : # true # true, false (default)
 
 
 # Site Author
 author:
-  name             : "Savin Khadka"
+  name             : #"Savin Khadka"
   avatar           : "/assets/images/portrait.JPG" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am a Ph.D. candidate in the Dept. of Ag. and Applied Economics at the University of Georgia. My research focuses on the use of Machine Learning techniques to investigate problems in International Trade. When not working, I like to dabble in music, sports, and internet shenanigans."
   location         : "Athens, GA/ Kathmandu, Nepal"
@@ -159,6 +159,7 @@ author:
 include:
   - .htaccess
   - _pages
+
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -220,7 +221,7 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/
+# permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -233,6 +234,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jemoji
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -282,10 +284,10 @@ compress_html:
 
 # Defaults
 defaults:
-  # _posts
+  # _pages
   - scope:
       path: ""
-      type: pages  
+      type: pages 
     values:
       layout: splash 
       author_profile: true 
@@ -293,3 +295,16 @@ defaults:
       comments: false 
       share: false 
       related: true
+        
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_proflie: true
+      read_time: true
+      comments: true
+      share: true
+      related: false 
+  
