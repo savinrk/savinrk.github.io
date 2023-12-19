@@ -18,7 +18,7 @@
 
   @include breakpoint($large) {
     float: left;
-    width: calc(#{$right-sidebar-width-narrow} - 1em);
+    width: (#{$right-sidebar-width-narrow} - 1em);
     opacity: 0.75;
     -webkit-transition: opacity 0.2s ease-in-out;
     transition: opacity 0.2s ease-in-out;
@@ -29,15 +29,15 @@
 
     &.sticky {
       overflow-y: auto;
-      /* calculate height of nav list
+      /*  calculate height of nav list
          viewport height - nav height - masthead x-padding
       */
-      max-height: calc(100vh - #{$nav-height} - 2em);
+      max-height:  calc(100vh - #{$nav-height} - 2em);
     }
   }
 
   @include breakpoint($x-large) {
-    width: calc(#{$right-sidebar-width} - 1em);
+    width:  calc(#{$right-sidebar-width} - 1em);
   }
 
   > * {
@@ -93,7 +93,7 @@
       .toc {
         .toc__menu {
           overflow-y: auto;
-          max-height: calc(100vh - 7em);
+          max-height:  calc(100vh - 7em);
         }
       }
     }
@@ -270,7 +270,7 @@
     content: "";
     position: absolute;
     top: -11px;
-    left: calc(50% - 10px);
+    left:  calc(50% - 10px);
     width: 0;
     border-style: solid;
     border-width: 0 10px 10px;
@@ -287,7 +287,7 @@
     content: "";
     position: absolute;
     top: -10px;
-    left: calc(50% - 10px);
+    left:  calc(50% - 10px);
     width: 0;
     border-style: solid;
     border-width: 0 10px 10px;
