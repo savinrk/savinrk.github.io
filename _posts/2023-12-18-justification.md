@@ -23,7 +23,7 @@ There are two main reasons for starting this site. First, because it's possible 
 
 Back in the day (circa 2013-15, which might be laughably *still in the day* to some readers), I used to tweet a lot. These days, however, I don't see much use in any social media&mdash;believing, rather firmly, that there is no net good in too much engagement with those platforms. In the interesting times we live in, it is perhaps better (or more rewarding, at least) to dwell on things you actually want to consciously consume. Thus, I thought it might be beneficial to have a space (one which I can, to a large extent, have control over) to interface with the world, should anyone be interested in the things I am. 
 
-This site will be very much inspired by those of [Scott Aaronson](https://www.scottaaronson.com/), [Richard Stallman](https://stallman.org/), [Paul Graham](http://paulgraham.com/articles.html) and so on. There was some other individual who had a similar setup with much shorter posts (whose name unfortunately escapes me presently) who also motivated me. So, the posts are mostly going to be short, probably. The goal is to log random thoughts on diverse topics and not to have rigorously edited manuscripts&mdash;although such opportunities may arise.  
+This site will be very much inspired by those of [Scott Aaronson](https://www.scottaaronson.com/), [Richard Stallman](https://stallman.org/), [Paul Graham](http://paulgraham.com/articles.html), [Naval Ravikant](https://nav.al/), and so on. The posts are mostly going to be short, probably. The goal is to log random thoughts on diverse topics and not to have rigorously edited manuscripts&mdash;although such opportunities may arise.  
 
 ## Reason Two: Measurement and Improvement
 
